@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,165 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.myNav{
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+
 }
+
+
+
+
+.first{
+  padding-left: 20px;
+}
+
+
+
+
+
+.second{
+  padding-top: 23px;
+ 
+  /* border: 1px solid; */
+}
+.second>div{
+  padding-left: 450px;
+}
+
+
+.myNav>.second>div>:link{
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+ color: orangered;
+}
+
+.myh2{
+  text-align: center;
+}
+
+.bigCon{
+  /* border: 1px solid black; */
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.bigCon>div{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 400px;
+}
+h4{
+  text-align: center;
+}
+
+
+/* about css start  */
+.aboutCon{
+  /* border: 1px solid; */
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  margin-top: 30px;
+
+}
+
+.aboutCon>div{
+  /* border: 1px solid; */
+  padding: 20px;
+
+  
+
+}
+
+.aboutCon>div>img{
+  border-radius: 10px;
+}
+
+button{
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: aliceblue;
+  margin-top: 10px;
+  width: 25%;
+}
+button:hover{
+  color: rgb(252, 250, 250);
+  background-color:rgb(56, 216, 56);
+}
+
+/* contact css starts */
+
+.contactCon{
+  /* border: 1px solid; */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactForm{
+  width: 70%;
+  /* border: 1px solid red; */
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family:serif;
+  letter-spacing: 2px;
+  margin-top: 30px;
+ 
+ 
+}
+
+.midCon{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 100px;
+  height: auto;
+}
+.midCon>input{
+  margin: 15px;
+  border-radius: 1px;
+
+}
+
+@media all and (max-width: 790px) and (min-width:300px){
+  .second>div{
+    padding-left: 170px;
+  }
+  .bigCon{
+    /* border: 1px solid black; */
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .aboutCon{
+    /* border: 1px solid; */
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+    margin-top: 30px;
+  
+  }
+}
+
+
+
+
